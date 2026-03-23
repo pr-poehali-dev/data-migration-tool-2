@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Один договор — ноль головной боли",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Вы подписываете один договор и забываете о стройке. Мы координируем все бригады, поставки и этапы работ самостоятельно.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Фиксированная цена",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Смета согласовывается до старта — и больше не меняется. Никаких «внезапных доплат» в процессе ремонта.",
   },
   {
-    title: "Естественная динамика",
+    title: "Сроки под контролем",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Работаем по чёткому графику. Вы знаете, когда каждый этап начнётся и закончится — всё прозрачно.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Только проверенные материалы",
+    description: "Используем качественные материалы от надёжных поставщиков. Подбираем под ваш бюджет и вкус.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему выбирают нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Ремонт без
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>стресса</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Ремонт под ключ — это когда вы передаёте нам квартиру на входе, а получаете готовое жильё на выходе. Без беготни по магазинам, без контроля бригад, без нервов.
             </p>
 
             {philosophyItems.map((item, index) => (
